@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Simulador Cache Ram' target in the 'Simulador Cache Ram' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
