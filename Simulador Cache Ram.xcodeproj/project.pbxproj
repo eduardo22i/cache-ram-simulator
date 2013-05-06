@@ -17,6 +17,9 @@
 		F9609446173714420023CAB4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9609426173714410023CAB4 /* Cocoa.framework */; };
 		F960944E173714420023CAB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F960944C173714420023CAB4 /* InfoPlist.strings */; };
 		F9609451173714420023CAB4 /* Simulador_Cache_RamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9609450173714420023CAB4 /* Simulador_Cache_RamTests.m */; };
+		F960945C17371C2B0023CAB4 /* SCRCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F960945B17371C2B0023CAB4 /* SCRCalculator.m */; };
+		F960945E173720E50023CAB4 /* datos.txt in Resources */ = {isa = PBXBuildFile; fileRef = F960945D173720E50023CAB4 /* datos.txt */; };
+		F960946217374BFB0023CAB4 /* Untitled183.icns in Resources */ = {isa = PBXBuildFile; fileRef = F960946117374BFB0023CAB4 /* Untitled183.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		F960944D173714420023CAB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F960944F173714420023CAB4 /* Simulador_Cache_RamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simulador_Cache_RamTests.h; sourceTree = "<group>"; };
 		F9609450173714420023CAB4 /* Simulador_Cache_RamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simulador_Cache_RamTests.m; sourceTree = "<group>"; };
+		F960945A17371C2B0023CAB4 /* SCRCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRCalculator.h; sourceTree = "<group>"; };
+		F960945B17371C2B0023CAB4 /* SCRCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRCalculator.m; sourceTree = "<group>"; };
+		F960945D173720E50023CAB4 /* datos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datos.txt; sourceTree = "<group>"; };
+		F960946117374BFB0023CAB4 /* Untitled183.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Untitled183.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +82,7 @@
 		F960941A173714410023CAB4 = {
 			isa = PBXGroup;
 			children = (
+				F960946117374BFB0023CAB4 /* Untitled183.icns */,
 				F960942C173714410023CAB4 /* Simulador Cache Ram */,
 				F9609449173714420023CAB4 /* Simulador Cache RamTests */,
 				F9609425173714410023CAB4 /* Frameworks */,
@@ -114,8 +122,11 @@
 		F960942C173714410023CAB4 /* Simulador Cache Ram */ = {
 			isa = PBXGroup;
 			children = (
+				F960945D173720E50023CAB4 /* datos.txt */,
 				F9609438173714410023CAB4 /* SCRAppDelegate.h */,
 				F9609439173714410023CAB4 /* SCRAppDelegate.m */,
+				F960945A17371C2B0023CAB4 /* SCRCalculator.h */,
+				F960945B17371C2B0023CAB4 /* SCRCalculator.m */,
 				F960943B173714410023CAB4 /* MainMenu.xib */,
 				F960942D173714410023CAB4 /* Supporting Files */,
 			);
@@ -228,6 +239,8 @@
 				F9609431173714410023CAB4 /* InfoPlist.strings in Resources */,
 				F9609437173714410023CAB4 /* Credits.rtf in Resources */,
 				F960943D173714410023CAB4 /* MainMenu.xib in Resources */,
+				F960945E173720E50023CAB4 /* datos.txt in Resources */,
+				F960946217374BFB0023CAB4 /* Untitled183.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +277,7 @@
 			files = (
 				F9609433173714410023CAB4 /* main.m in Sources */,
 				F960943A173714410023CAB4 /* SCRAppDelegate.m in Sources */,
+				F960945C17371C2B0023CAB4 /* SCRCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simulador Cache Ram/Simulador Cache Ram-Prefix.pch";
 				INFOPLIST_FILE = "Simulador Cache Ram/Simulador Cache Ram-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -399,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simulador Cache Ram/Simulador Cache Ram-Prefix.pch";
 				INFOPLIST_FILE = "Simulador Cache Ram/Simulador Cache Ram-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
