@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E06FB5F8-7ED1-4DB7-B102-3A4279B26125</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Simulador Cache Ram</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F69679C-FE28-4BDF-A532-6DFA90B7C71E</key>
+		<string>https://github.com/eduardo22i/cache-ram-simulator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Simulador Cache Ram.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F69679C-FE28-4BDF-A532-6DFA90B7C71E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eduardo22i/cache-ram-simulator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2F69679C-FE28-4BDF-A532-6DFA90B7C71E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F69679C-FE28-4BDF-A532-6DFA90B7C71E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cache-ram-simulator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

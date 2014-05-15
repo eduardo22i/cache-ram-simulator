@@ -28,6 +28,9 @@
 @property (weak) IBOutlet NSTextField *lbl_datos_3;
 @property (weak) IBOutlet NSTextField *lbl_datos_4;
 
+
+@property NSInteger taskCounts;
+
 - (IBAction)start:(id)sender;
 
 @end
